@@ -1,0 +1,17 @@
+{
+  "name": "my-custom-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/lib/store.d.ts",
+  "scripts": {
+    "build": "tsdx build --entry ./store.ts",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsdx": "^0.6.1"
+  }
+}
