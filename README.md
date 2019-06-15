@@ -1,0 +1,1 @@
+# slate-incident-management
