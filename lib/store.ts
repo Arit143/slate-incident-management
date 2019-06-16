@@ -4,11 +4,11 @@ export interface Action {
 }
 
 export interface State {
-    [key: string]: any 
+    [key: string]: any;
 }
 
 export interface Reducer {
-  [key: string]: Function
+  [key: string]: Function;
 }
 
 export class Store {

@@ -1,9 +1,9 @@
 import { Store } from 'my-custom-redux';
 
-import { homeReducer } from './home.reducer';
+import { appReducer } from './app.reducer';
 
 const reducers = {
-    home: homeReducer
+    app: appReducer
 }
 
 const store = new Store(reducers, {});
