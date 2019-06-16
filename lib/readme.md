@@ -53,7 +53,7 @@ const Component = () => {
 ```
 const Component = () => {
     const  appState= [];
-    store.dispatch(state => appState = state);
+    store.subscribe(state => appState = state);
     return <button>{appState.property}</button>
 }
 

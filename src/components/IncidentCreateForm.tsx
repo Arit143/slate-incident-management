@@ -7,7 +7,7 @@ import { Form } from 'formik';
 import FormikTextField from './../common/FormikTextField';
 import { FORMIK_FIELDS, assignees, status } from '../constants/fields.constants';
 
-import { Details } from './../types/details.type';
+import { Details } from '../types/app.type';
 
 interface IncidentCreateFormProps {
     values: Details;

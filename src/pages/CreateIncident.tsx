@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 import IncidentCreateForm from './../components/IncidentCreateForm';
 import { INITIAL_VALUES } from '../constants/fields.constants';
-import { Details } from './../types/details.type';
+import { Details } from '../types/app.type';
 
 import store from './../store/app.store';
 

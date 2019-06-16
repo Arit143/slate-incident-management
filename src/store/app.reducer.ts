@@ -1,5 +1,5 @@
 import { Action } from 'my-custom-redux';
-import { TicketState } from './../types/details.type';
+import { TicketState } from '../types/app.type';
 
 const INITIAL_STATE: TicketState = {
     tickets: []

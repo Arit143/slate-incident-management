@@ -7,7 +7,7 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-import { Details } from './../types/details.type'
+import { Details } from '../types/app.type'
 
 interface IncidentProps {
   ticket: Details;

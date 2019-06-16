@@ -8,7 +8,7 @@ import AddIcon from '@material-ui/icons/Add';
 import Incident from '../components/Incident';
 
 import store from './../store/app.store';
-import { AppState, Details } from './../types/details.type';
+import { AppState, Details } from '../types/app.type';
 
 const Home = (props: RouteComponentProps) => { 
   const { history } = props;
