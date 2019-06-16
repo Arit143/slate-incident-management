@@ -5,40 +5,40 @@ export const INITIAL_VALUES = {
     lastName: '',
     city: '',
     zip: '',
-    assignee: 'engineer',
-    status: 'open'
+    assignee: 'Engineer',
+    status: 'Open'
 };
 
 export const assignees = [
     {
-      value: 'engineer',
+      value: 'Engineer',
       label: 'Engineer',
     },
     {
-      value: 'admin',
+      value: 'Admin',
       label: 'Admin',
     },
     {
-      value: 'superAdmin',
+      value: 'Super Admin',
       label: 'Super Admin',
     }
 ];
 
 export const status = [
     {
-      value: 'resolved',
+      value: 'Resolved',
       label: 'Resolved',
     },
     {
-      value: 'open',
+      value: 'Open',
       label: 'Open',
     },
     {
-      value: 'pending',
+      value: 'Pending',
       label: 'Pending',
     },
     {
-        value: 'acknowleged',
+        value: 'Acknowleged',
         label: 'Acknowledged',
       }
 ];

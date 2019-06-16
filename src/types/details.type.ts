@@ -9,6 +9,10 @@ export interface Details {
     status: string;
 }
 
-export interface StoreState {
+export interface TicketState {
     tickets: Array<Details> | [];
+}
+
+export interface AppState {
+    app: TicketState
 }

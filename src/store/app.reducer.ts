@@ -1,7 +1,7 @@
 import { Action } from 'my-custom-redux';
-import { StoreState } from './../types/details.type';
+import { TicketState } from './../types/details.type';
 
-const INITIAL_STATE: StoreState = {
+const INITIAL_STATE: TicketState = {
     tickets: []
 };
 
@@ -17,4 +17,4 @@ export function appReducer(state = INITIAL_STATE, action: Action) {
         return { ...state };
       }
     }
-  }
+}

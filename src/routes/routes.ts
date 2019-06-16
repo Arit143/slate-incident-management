@@ -1,4 +1,5 @@
 import React from 'react';
+import { RouteComponentProps } from 'react-router-dom';
 
 import Home  from './../pages/Home';
 import CreateIncident  from './../pages/CreateIncident';
@@ -8,7 +9,7 @@ import CreateIncident  from './../pages/CreateIncident';
 interface Routes {
     path: string;
     exact?: boolean;
-    component: React.FC;
+    component: React.FC | React.SFC<RouteComponentProps>;
 }
 
 export const routes: Array<Routes> = [
