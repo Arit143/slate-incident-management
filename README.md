@@ -19,9 +19,10 @@ Fire up with `npm start` and go to `http://localhost:3000` to see the components
 
 1. React packages
 2. my-custom-redux (the custom library with documentation)
-3. Material UI for styling
-4. Typescript
-5. Lodash
+3. Formik (form handling)
+4. Material UI for styling
+5. Typescript
+6. Lodash
 
 ## Features
 
